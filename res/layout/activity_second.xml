@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/poster"
+    tools:context=".SecondActivity">
+    //#BA6926
+
+    <EditText
+        android:id="@+id/etpid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="25dp"
+        android:inputType="text"
+        android:background="#85FFFFFF"
+        android:hint="PASSENGER NAME"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="25dp"
+        android:background="#85FFFFFF"
+        android:hint="COACH NUMBER"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="25dp"
+        android:background=" #85FFFFFF"
+        android:hint="SEAT NUMBER"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/avatar" />
+
+    <Button
+        android:id="@+id/confirmbutton"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/round2"
+        android:text="CONFIRM" />
+
+    <Button
+        android:id="@+id/cancelbutton"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/round1"
+        android:text="CANCEL" />
+
+
+
+
+
+
+</RelativeLayout>
